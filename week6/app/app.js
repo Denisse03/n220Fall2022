@@ -46,5 +46,5 @@
 // };
 // console.log(fibonacci_series(8));
 
-let words = ["Indiana", "University", "Purdue", "University", "Indianapolis"];
-console.log(words);
+// let words = ["Indiana", "University", "Purdue", "University", "Indianapolis"];
+// console.log(words);
