@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    #grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      background-color: #2196f3;
+      padding: 10px;
+    }
+    #grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 50px;
+      font-size: 30px;
+      text-align: center;
+    }
+  </style>
+
+  <body>
+    <div id="grid-container">
+      <div
+        data-clickable="true"
+        data-card="1"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="2"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="3"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="4"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="5"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="4"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="5"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="2"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="6"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="3"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="1"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="7"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="8"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="8"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="6"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+      <div
+        data-clickable="true"
+        data-card="7"
+        id="grid-item"
+        onclick="itChange(event)"
+      >
+        Flip
+      </div>
+    </div>
+    <button onclick="replay()">Replay</button>
+    <script src="app/app.js"></script>
+  </body>
+</html>
